@@ -17,7 +17,7 @@ Collect each of these before writing a line. Done when every item has a concrete
 - **Backend code, merged.** The handoff describes what shipped. Find the merge commit on the default branch (`gh pr view <n> --json mergeCommit`) and confirm its tree matches what was reviewed. If the work isn't merged yet, tell the user and ask whether to wait. Examples written from a plan drift from the code.
 - **Frontend repo, current.** Pull its default branch (`git pull --ff-only`; refuse if local tracked changes exist, and say so). Note the commit.
 - **Decisions.** The issue body and decision log (for example the GitHub issue and its decision comments), plus decisions settled in this conversation that are not yet recorded.
-- **Glossary.** `CONTEXT.md` (or the repo's domain doc) for the words the screens must use.
+- **Glossary.** `GLOSSARY.md` (or the repo's domain doc) for the words the screens must use.
 - **Existing handoffs** for the same feature family. The new one builds on them; link them rather than repeat their shared rules.
 
 ## 2. Read the code the handoff will describe
